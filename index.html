@@ -7,7 +7,7 @@
 </head>
 <body>
 <script>
-l=document.location.search.substring(1);""!=l&&(e=document.createElement("meta"),e.setAttribute("http-equiv","refresh"),e.setAttribute("content","0;url=data:text/html;charset=utf-8,%3Cmeta%20http-equiv%3D%22refresh%22%20content%3D%220%3Burl%3D"+l+"%22%3E"),document.head.appendChild(e));
+l=document.location.search.substring(1);""!=l&&(location.replace("data:text/html;charset=utf-8,%3Cmeta%20http-equiv%3D%22refresh%22%20content%3D%220%3Burl%3D"+l+"%22%3E"));
 </script>
 </body>
 </html>
